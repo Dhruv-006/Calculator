@@ -1,0 +1,45 @@
+<resources>
+    <!-- Number Buttons (0-9, 00, .) -->
+    <style name="NumberButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/number_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Operator Buttons (+, -, ×, ÷) -->
+    <style name="OperatorButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/operator_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Function Buttons (AC, %, ⌫) -->
+    <style name="FunctionButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/function_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Equals Button (=) -->
+    <style name="EqualsButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/equals_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
