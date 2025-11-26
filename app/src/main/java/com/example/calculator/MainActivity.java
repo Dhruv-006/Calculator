@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvExpression, tvResult;
     private StringBuilder expression = new StringBuilder();
     private WebView webView;
-    private boolean justEvaluated = false; // ✅ Track if equals was just pressed
+    private boolean justEvaluated = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
